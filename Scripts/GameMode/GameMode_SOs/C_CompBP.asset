@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a48caba7f92c474396cd4decbe7d0df, type: 3}
+  m_Name: C_CompBP
+  m_EditorClassIdentifier: 
+  gameModeType: 2
+  sceneType: 4
+  contextualAttributeType: 0
+  mashType: 4
+  randomizeKeysOnRep: 1
+  repMeterPosition: {x: -460.5, y: 12, z: 0}
+  helperText: Rapidly press back and forth!
+  charactersToSpawn:
+    keys:
+    - {fileID: 9209935398684043323, guid: 55f6473d44f9ead49a026cce6e52be40, type: 3}
+    - {fileID: 2710259269408931675, guid: a2de5f6c821d1c04e8f8cde1b6f79d56, type: 3}
+    values:
+    - {x: -7.55, y: -4.91, z: 0}
+    - {x: 4.26, y: -7.28, z: 0}
+  liftingRequirements:
+    weightValue: 30.6
+    minimumReps: 10
+  dog: 1
